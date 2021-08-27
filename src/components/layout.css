@@ -620,3 +620,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+nav {
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  margin: 10px;
+  padding: 10px;
+}

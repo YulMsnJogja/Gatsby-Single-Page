@@ -6,11 +6,17 @@
  */
 
 import React from "react"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,6 +40,11 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+        <nav>
+        <Link to="/" style={{ textDecoration: 'none', paddingLeft: 13 }}>Home</Link>
+        <Link to="/#service-title" style={{ textDecoration: 'none', paddingLeft: 13 }}>Service</Link>
+        <Link to="/#features" style={{ textDecoration: 'none', paddingLeft: 13 }}>Features</Link>
+        </nav>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
