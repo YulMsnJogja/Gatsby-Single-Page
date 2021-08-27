@@ -2,15 +2,19 @@
 templateKey: index-page
 title: Simple-Landing Page
 image: /img/6.jpg
-heading: innovative & modern template, designed with love for apps.
+heading: Test landing page example innovative & modern template, designed with
+  love for apps.
 subheading: Design is not just what it looks like. Design is how it works.
 mainpitch:
   title: Why choose Simplé?
   description: >
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, by injected humour, or new randomised words which don't look believable.
+    There are many variations of passages of Lorem Ipsum available, but the
+    majority have suffered alteration, by injected humour, or new randomised
+    words which don't look believable.
 heading2: Features
-description: >-
-  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration, by injected humour, or new randomised words which don't look believable.
+description: There are many variations of passages of Lorem Ipsum available, but
+  the majority have suffered alteration, by injected humour, or new randomised
+  words which don't look believable.
 intro:
   blurbs:
     - image: /img/2.jpg
